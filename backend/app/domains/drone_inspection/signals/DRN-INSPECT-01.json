@@ -1,0 +1,29 @@
+{
+  "system_id": "DRN-INSPECT-01",
+  "timestamp": "2026-06-06T08:15:00Z",
+  "current": {
+    "flight_state": "return_to_launch_recommended",
+    "battery_soc_pct": 38,
+    "battery_health_pct": 71,
+    "pack_voltage_v": 21.8,
+    "esc_temp_c": 82,
+    "motor_vibration_mm_s": 5.7,
+    "gps_drift_m": 2.4,
+    "wind_speed_m_s": 9.1,
+    "payload_camera_status": "nominal"
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-06T08:11:20Z",
+      "code": "E-204",
+      "severity": "medium",
+      "message": "Battery voltage sag under climb load."
+    },
+    {
+      "timestamp": "2026-06-06T08:14:03Z",
+      "code": "ESC-TEMP-WARN",
+      "severity": "medium",
+      "message": "Electronic speed controller temperature exceeded inspection threshold."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "system_id": "FD001-UNIT-001",
+  "timestamp": "2008-10-01T00:00:00Z",
+  "current": {
+    "asset_type": "turbofan_engine",
+    "scenario_name": "Autonomous turbofan health gate replay",
+    "autonomous_trigger": "Cycle 31 telemetry window closed",
+    "physical_condition": "FD001 unit 1 has completed its latest observed cycle under known HPC degradation conditions.",
+    "decision_required": "Decide whether to keep monitoring or open a maintenance review.",
+    "qdrant_role": "Retrieve operating context, RUL semantics, and maintenance policy from domain documents.",
+    "dataset": "FD001",
+    "source": "NASA C-MAPSS Turbofan Engine Degradation Simulation Data Set",
+    "unit_number": 1,
+    "observed_cycles": 31,
+    "ground_truth_rul_cycles": 112,
+    "expected_failure_cycle": 143,
+    "operating_condition": "one condition, sea level",
+    "fault_mode": "HPC degradation",
+    "last_cycle": {
+      "cycle": 31,
+      "operational_setting_1": -0.0006,
+      "operational_setting_2": 0.0004,
+      "operational_setting_3": 100.0,
+      "sensor_1": 518.67,
+      "sensor_2": 642.58,
+      "sensor_3": 1581.22,
+      "sensor_4": 1398.91,
+      "sensor_5": 14.62,
+      "sensor_6": 21.61,
+      "sensor_7": 554.42,
+      "sensor_8": 2388.08,
+      "sensor_9": 9056.40,
+      "sensor_10": 1.30,
+      "sensor_11": 47.23,
+      "sensor_12": 521.79,
+      "sensor_13": 2388.06,
+      "sensor_14": 8130.11,
+      "sensor_15": 8.4024,
+      "sensor_16": 0.03,
+      "sensor_17": 393,
+      "sensor_18": 2388,
+      "sensor_19": 100.00,
+      "sensor_20": 38.81,
+      "sensor_21": 23.3552
+    },
+    "sample_rows": [
+      {
+        "cycle": 27,
+        "sensor_2": 642.08,
+        "sensor_3": 1586.65,
+        "sensor_4": 1400.31,
+        "sensor_11": 47.34,
+        "sensor_15": 8.4494
+      },
+      {
+        "cycle": 28,
+        "sensor_2": 641.93,
+        "sensor_3": 1594.25,
+        "sensor_4": 1401.29,
+        "sensor_11": 47.05,
+        "sensor_15": 8.4470
+      },
+      {
+        "cycle": 29,
+        "sensor_2": 641.95,
+        "sensor_3": 1587.15,
+        "sensor_4": 1398.11,
+        "sensor_11": 47.42,
+        "sensor_15": 8.4212
+      },
+      {
+        "cycle": 30,
+        "sensor_2": 642.79,
+        "sensor_3": 1585.72,
+        "sensor_4": 1400.97,
+        "sensor_11": 47.40,
+        "sensor_15": 8.4110
+      },
+      {
+        "cycle": 31,
+        "sensor_2": 642.58,
+        "sensor_3": 1581.22,
+        "sensor_4": 1398.91,
+        "sensor_11": 47.23,
+        "sensor_15": 8.4024
+      }
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2008-10-01T00:00:00Z",
+      "code": "RUL-GROUND-TRUTH",
+      "severity": "low",
+      "message": "NASA RUL_FD001 ground truth for test unit 1 is 112 remaining cycles."
+    }
+  ]
+}

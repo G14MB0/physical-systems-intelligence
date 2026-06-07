@@ -1,0 +1,17 @@
+.env
+.state/
+**/.state/
+.tmp/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+*.egg-info/
+node_modules/
+dist/
+test-results/
+playwright-report/
+.DS_Store

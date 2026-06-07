@@ -1,0 +1,16 @@
+id: nasa_cmapss_turbofan
+name: NASA C-MAPSS Turbofan FD001
+description: >
+  Reference prognostics domain based on NASA C-MAPSS Turbofan Engine Degradation
+  Simulation FD001. The included micro-sample uses real dataset rows and the
+  published test-set RUL ground truth for engine unit 1.
+primary_system_id: FD001-UNIT-001
+systems:
+  - id: FD001-UNIT-001
+    name: FD001 Test Engine Unit 1
+    type: turbofan_engine_degradation_simulation
+    location: NASA C-MAPSS FD001 benchmark
+    status: benchmark_truncated_before_failure
+    description: >
+      FD001 unit 1 test trajectory truncated at cycle 31. Ground-truth RUL file
+      gives 112 remaining operational cycles after the last observed cycle.

@@ -1,0 +1,10 @@
+{
+  "domain_id": "nasa_cmapss_turbofan",
+  "system_id": "FD001-UNIT-001",
+  "dataset": "FD001",
+  "unit_number": 1,
+  "observed_cycles": 31,
+  "ground_truth_rul_cycles": 112,
+  "expected_failure_cycle": 143,
+  "source": "NASA C-MAPSS RUL_FD001 first row"
+}

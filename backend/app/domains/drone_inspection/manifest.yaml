@@ -1,0 +1,13 @@
+id: drone_inspection
+name: Drone Inspection Domain
+description: >
+  A reusable physical-system pack for inspection drones. It combines signal snapshots,
+  maintenance manuals, operating limits, and action policies.
+primary_system_id: DRN-INSPECT-01
+systems:
+  - id: DRN-INSPECT-01
+    name: Inspection Drone 01
+    type: quadcopter_inspection_drone
+    location: north-bridge-span
+    status: degraded
+    description: Autonomous inspection drone used for bridge and infrastructure surveys.
