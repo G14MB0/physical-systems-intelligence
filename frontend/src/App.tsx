@@ -60,8 +60,7 @@ export default function App() {
     <div className={`app-shell theme-${view}`}>
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Physical Systems Intelligence home">
-          <span className="brand-mark">PS</span>
-          <span>Physical Systems Intelligence</span>
+          <span>DEMO - Physical Systems Intelligence</span>
         </a>
         <nav className="nav">
           <button
